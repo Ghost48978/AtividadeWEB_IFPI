@@ -1,0 +1,46 @@
+HTML CODE
+
+<!--Exemplo de Menu vertical-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Menu horizontal</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="primeiro"><a href="ola">Home</a></li>
+            <li><a href="B">Noticias</a></li>
+            <li><a href="v">Contatos</a></li>
+            <li class="ultimo"><a href="ea">Sobre</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+CSS CODE*
+
+/*Menu vertical em css*/
+li {
+    display: inline;
+    float: left;
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #000000;    
+}
+.primeiro a {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.ultimo a {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+li a:hover {
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
