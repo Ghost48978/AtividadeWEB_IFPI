@@ -1,0 +1,80 @@
+# AtividadeWEB_IFPI
+Atividade da materia programação do IFPI
+
+HTML codigo
+
+<!--Posicionamento-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Posicionamento static</title>
+    <link rel="stylesheet" href="meu_site.css">
+</head>
+<body>
+    <div class="sup_esq">
+        <p>Superior esquerdo</p>
+    </div>
+    <div class="sup_dir">
+        <p>Superior direita</p>
+    </div>
+    <div class="inf_esq">
+        <p>Inferior esquerdo</p>
+    </div>
+    <div class="inf_dir">
+        <p>Inferior direita</p>
+    </div>
+    <div class="circulo"></div>
+</body>
+</html>
+
+Codigo em CSS
+
+
+/*Posicionamento*/
+.sup_esq {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.sup_dir {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.inf_esq {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 590px;
+    left: 0;
+}
+
+.inf_dir {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 590px;
+    right: 0;
+}
+
+.circulo {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
