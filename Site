@@ -1,0 +1,79 @@
+Background html
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Background</title>
+    <link rel="stylesheet" href="Background.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Cadastro Geral</legend>
+        <fieldset class="dados_pesso">
+            <legend>Dados pessoais</legend><br>
+            <legend>Nome completo:</legend>
+            <input type="text"><br><br>
+            <legend>Profissão</legend>
+            <select name="Profissão">
+                <option value="ui">Sua profissão</option>
+            </select>
+        </fieldset>
+        <fieldset class="localização">
+            <legend>Localização</legend><br>
+            <legend>E-mail:</legend>
+            <input type="email"><br><br>
+            <legend>Rua:</legend>
+            <input type="text">
+        </fieldset>
+        <fieldset class="faixa_etaria">
+            <legend>Faixa etária</legend>
+            <input type="radio" id="ui" value="ate 20 anos">até 20 anos<br>
+            <input type="radio" id="ui" value="ate 20 anos">mais de 20 até 30 anos<br>
+            <input type="radio" id="ui" value="ate 20 anos">mais de 30 até 40 anos<br>
+            <input type="radio" id="ui" value="ate 20 anos" class="left2">mais de 40 até 50 anos<br>
+            <input type="radio" id="ui" value="ate 20 anos" class="left2">mais de 50 até 60 anos<br>
+            <input type="radio" id="ui" value="ate 20 anos" class="left2">mais de 60<br>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes que pratico</legend>
+            <input type="checkbox">Futebol de campo<br>
+            <input type="checkbox">Futsal<br>
+            <input type="checkbox">Futebol society<br>
+            <input type="checkbox">Volei de quadra<br>
+            <input type="checkbox">Volei de praia<br>
+            <input type="checkbox">Natação em pscina<br>
+            <input type="checkbox">Natação em mar aberto<br>
+        </fieldset>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>Comentário</legend><br>
+        <legend>Mensagem:</legend>
+        <textarea rows="8" cols="50"></textarea>
+    </fieldset><br>
+    <input type="submit">
+    <input type="submit" id="limpar" value="Limpar">
+</body>
+</html>
+
+CSS
+
+body {
+    background-color: gray;
+}
+
+fieldset {
+    color: greenyellow;
+}
+
+.dados_pesso {
+    width: 600px;
+    background-image: url(https://www.conass.org.br/guiainformacao/wp-content/uploads/2023/02/ilustracao29.png);
+}
+
+.localização {
+    width: 600px;
+    position: relative;
+    left: 750px;
+    top: -160px;
+}
