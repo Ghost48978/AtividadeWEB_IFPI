@@ -1,0 +1,52 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="flexbox.css">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+        <section class="container">
+            <aside class="esquerda"></aside>
+            <aside class="conteudo"></aside>
+            <aside class="direita"></aside>
+        </section>
+    <footer></footer>
+</body>
+</html>
+
+CSS
+
+.container {
+    display: flex;
+    min-height: 420px;
+}
+
+.esquerda, .direita {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    border-radius: 10px;
+    background: #ccccff;
+    flex: 1 6 20%;
+}
+
+.conteudo {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: royalblue;
+    flex: 3 1 60%;
+}
+
+header, footer {
+    display: block;
+    background-color: gray;
+    min-height: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
