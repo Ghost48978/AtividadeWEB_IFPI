@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+#login {
+    text-align: center;
+    margin-top: 8%;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabeçario {
+    margin-right: 9%;
+}
+
+input { 
+    height: 23px;
+    border-radius: 8px;
+}
+
+.entrar {
+    height: 23px;
+    width: 150px;
+    background-color: #009929;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.entrar:hover{
+    opacity: 1;
+    background-color: #006414;
+}
+
+a {
+    color: #009929;
+}
